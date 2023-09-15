@@ -25,7 +25,7 @@ final class CustomSizedInvMenuType implements InvMenuType{
 
 	public static function ofSize(int $size) : self{
 		$length = intdiv($size, 9) + ($size % 9 === 0 ? 0 : 1);
-		$length = min($length, 6);
+		$length = min($length, 7);
 		return new self($size, $length);
 	}
 
