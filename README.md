@@ -1,5 +1,5 @@
 # CustomSizedInvMenu
-To be able to build custom-sized `InvMenu` instances, you must install the [tedo0627/InventoryUIResourcePack](https://github.com/tedo0627/InventoryUIResourcePack) resource pack on your server.
+To be able to build custom-sized `InvMenu` instances, you must install the [NeiroNetwork/InventoryUIResourcePack](https://github.com/NeiroNetwork/InventoryUIResourcePack) resource pack on your server.
 
 A custom-sized InvMenu provides several advantages over traditional ways of displaying menus (`InvMenu::TYPE_CHEST`, `InvMenu::TYPE_DOUBLE_CHEST`):
 1. **Dynamic:** To create a menu that can hold `n` items, you need not know the size of a chest or a double chest inventory. Instead, simply create a menu of the preferred size: `CustomSizedInvMenu::create(n)`.
